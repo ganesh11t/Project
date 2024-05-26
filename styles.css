@@ -241,7 +241,28 @@ nav {
     cursor: pointer;
   }
 
+  .nav__btns .rbtn {
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    font-size: .8rem;
+    font-weight: 600;
+    white-space: nowrap;
+    color: var(--text-dark);
+    background-color: var(--tertiary-color);
+    border-radius: 5rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+
   .nav__btns .btn:hover {
+    color: var(--white);
+    background-color: var(--secondary-color);
+  }
+
+  .nav__btns .rbtn:hover {
     color: var(--white);
     background-color: var(--secondary-color);
   }
